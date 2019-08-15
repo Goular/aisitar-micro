@@ -1,11 +1,11 @@
 package db
 
 import (
+	"aisitar-micro/basic/config"
 	"database/sql"
 	"fmt"
 	"sync"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/basic/config"
 	"github.com/micro/go-micro/util/log"
 )
 
