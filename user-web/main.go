@@ -1,8 +1,8 @@
 package main
 
 import (
-	"aisitar-micro/user-web/basic"
-	"aisitar-micro/user-web/basic/config"
+	"aisitar-micro/basic"
+	"aisitar-micro/basic/config"
 	"aisitar-micro/user-web/handler"
 	"fmt"
 	"github.com/micro/cli"
@@ -42,6 +42,8 @@ func main() {
 
 	// 注册登录接口
 	service.HandleFunc("/user/login", handler.Login)
+	// 注册退出接口
+	service.HandleFunc("/user/logout", handler.Logout)
 
 	// 运行服务
 	if err := service.Run(); err != nil {
