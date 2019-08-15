@@ -1,7 +1,6 @@
 
 GOPATH:=$(shell go env GOPATH)
 
-
 .PHONY: build
 build:
 
