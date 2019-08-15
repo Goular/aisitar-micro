@@ -1,11 +1,11 @@
 package handler
 
 import (
+	"aisitar-micro/auth/model/access"
 	"context"
 	"strconv"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/auth/model/access"
-	auth "github.com/micro-in-cn/tutorials/microservice-in-micro/part2/auth/proto/auth"
+	auth "aisitar-micro/auth/proto/auth"
 	"github.com/micro/go-micro/util/log"
 )
 

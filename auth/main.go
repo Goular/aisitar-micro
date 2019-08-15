@@ -1,14 +1,14 @@
 package main
 
 import (
+	"aisitar-micro/auth/handler"
+	"aisitar-micro/auth/model"
+	"aisitar-micro/basic"
+	"aisitar-micro/basic/config"
 	"fmt"
 	"time"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/auth/handler"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/auth/model"
-	s "github.com/micro-in-cn/tutorials/microservice-in-micro/part2/auth/proto/auth"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/basic"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/basic/config"
+	s "aisitar-micro/auth/proto/auth"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/registry"

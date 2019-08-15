@@ -1,11 +1,11 @@
 package access
 
 import (
+	"aisitar-micro/basic/config"
 	"fmt"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/basic/config"
 	"github.com/micro/go-micro/broker"
 	"github.com/micro/go-micro/util/log"
 )
